@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2CCBC6FB9F843C7739E25E1E /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582B46B5C9C9BCEB8AE40C6 /* BoardView.swift */; };
 		774336E07B77B894105BB695 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB2A8E70CC98944CA45D907 /* Game.swift */; };
+		99C77EA2E6D81013324D71BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1247C302269274D06BEB850C /* Assets.xcassets */; };
 		CD911B45600610A95A1DB9E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D46A461291E774B2796F8 /* ContentView.swift */; };
 		D86EA021AF9576F981A548C1 /* GomokuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500187A7ABC1E2D7BDE8C683 /* GomokuApp.swift */; };
 		E6FA3F9D9A52411B21B53782 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E96FC8C5816B2159B742C59 /* GameTests.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1247C302269274D06BEB850C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		500187A7ABC1E2D7BDE8C683 /* GomokuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomokuApp.swift; sourceTree = "<group>"; };
 		5F2D46A461291E774B2796F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6582B46B5C9C9BCEB8AE40C6 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		2A6B205F4792294B56B181A3 /* Gomoku */ = {
 			isa = PBXGroup;
 			children = (
+				1247C302269274D06BEB850C /* Assets.xcassets */,
 				6582B46B5C9C9BCEB8AE40C6 /* BoardView.swift */,
 				5F2D46A461291E774B2796F8 /* ContentView.swift */,
 				6DB2A8E70CC98944CA45D907 /* Game.swift */,
@@ -80,6 +83,7 @@
 			buildConfigurationList = 8B103D21A6CE3A974FE9BB5B /* Build configuration list for PBXNativeTarget "Gomoku" */;
 			buildPhases = (
 				92F074D675C0D4DBD0A07D1B /* Sources */,
+				DB73EA993B5CC35718F0ADE0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -140,6 +144,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB73EA993B5CC35718F0ADE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C77EA2E6D81013324D71BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92F074D675C0D4DBD0A07D1B /* Sources */ = {
